@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header {
+    @apply fixed top-0 flex flex-col items-center justify-between w-full h-16 py-1 mx-auto bg-slate-900 px-7 sm:flex-row sm:py-0;
+  }
+
+  .hero_section {
+    @apply flex items-center justify-center max-w-screen-xl px-0 py-16 mt-16;
+  }
+}
